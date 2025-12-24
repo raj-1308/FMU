@@ -1,0 +1,142 @@
+.about-light {
+  padding: 130px 10%;
+  background: #f7f6f3;
+  position: relative;
+}
+
+.about-light-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-light-header {
+  max-width: 760px;
+  margin-bottom: 80px;
+}
+
+.about-badge {
+  display: inline-block;
+  background: rgba(180, 150, 90, 0.15);
+  color: #6b5530;
+  padding: 7px 16px;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.about-light-header h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #1c1c1c;
+  line-height: 1.2;
+}
+
+.about-light-header p {
+  margin-top: 20px;
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.about-light-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 70px;
+  align-items: flex-start;
+}
+
+.about-light-text h3 {
+  font-size: 1.8rem;
+  color: #1c1c1c;
+  margin-bottom: 16px;
+}
+
+.about-light-text p {
+  font-size: 1.03rem;
+  line-height: 1.8;
+  color: #4d4d4d;
+  margin-bottom: 18px;
+}
+
+.about-highlight {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.about-highlight span {
+  font-size: 0.92rem;
+  color: #333;
+  padding-left: 20px;
+  position: relative;
+}
+
+.about-highlight span::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #6b5530;
+  font-weight: 600;
+}
+
+.about-light-cards {
+  display: grid;
+  gap: 22px;
+}
+
+.about-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #eee;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.06);
+}
+
+.about-card h4 {
+  font-size: 1.15rem;
+  color: #1c1c1c;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #5a5a5a;
+}
+
+@media (max-width: 900px) {
+  .about-light {
+    padding: 110px 6%;
+  }
+
+  .about-light-grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .about-highlight {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-light-header h2 {
+    font-size: 2.3rem;
+  }
+
+  .about-light-text h3 {
+    font-size: 1.55rem;
+  }
+
+  .about-card {
+    padding: 26px 22px;
+  }
+}

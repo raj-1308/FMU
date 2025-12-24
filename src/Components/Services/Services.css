@@ -1,0 +1,142 @@
+.services-section {
+  padding: 160px 10%;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(120, 160, 200, 0.18),
+      transparent 42%
+    ),
+    linear-gradient(180deg, #021330 0%, #eef2f7 100%);
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services-header {
+  max-width: 780px;
+  margin-bottom: 100px;
+}
+
+.services-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+  padding: 7px 22px;
+  border-radius: 30px;
+  font-size: 0.78rem;
+  letter-spacing: 1.2px;
+  margin-bottom: 22px;
+  backdrop-filter: blur(6px);
+}
+
+.services-header h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.services-header p {
+  margin-top: 22px;
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.75;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 42px;
+}
+
+.service-card {
+  background: #ffffff;
+  border-radius: 24px;
+  overflow: hidden;
+  transition: transform 0.45s ease, box-shadow 0.45s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 32px 70px rgba(11, 47, 105, 0.22);
+}
+
+.service-image {
+  height: 220px;
+  overflow: hidden;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s ease;
+}
+
+.service-card:hover .service-image img {
+  transform: scale(1.06);
+}
+
+.service-content {
+  padding: 30px 34px 38px;
+}
+
+.service-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0b2f69;
+  margin-bottom: 12px;
+}
+
+.service-content p {
+  font-size: 0.96rem;
+  color: #555;
+  line-height: 1.65;
+}
+
+@media (max-width: 1100px) {
+  .services-grid {
+    gap: 36px;
+  }
+}
+
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services-header {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 640px) {
+  .services-section {
+    padding: 120px 8%;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .services-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .services-header p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .services-section {
+    padding: 100px 6%;
+  }
+}
+@media (max-width: 350px) {
+  .services-header h2 {
+    font-size: 1.8rem;
+  }
+}
