@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import "./Services.css";
 
 import serviceImage from "../../assets/images/image.png";
@@ -14,40 +15,48 @@ const servicesData = [
     title: "Custom Furniture Design",
     description:
       "Bespoke furniture designed to perfectly align with your space, lifestyle, and functional needs.",
+    route: "/Services/CF1",
   },
   {
     image: serviceRecidental,
     title: "Residential Furniture",
     description:
       "Comfort-focused and elegant furniture solutions for homes, apartments, and villas.",
+    route: "/Services/CF2",
   },
   {
     image: serviceOffice,
     title: "Commercial & Office Furniture",
     description:
       "Ergonomic and professional furniture designed to enhance productivity in workspaces.",
+    route: "/Services/CF3",
   },
   {
     image: serviceMaterial,
     title: "Material & Wood Selection",
     description:
       "Carefully selected materials ensuring durability, strength, and premium finishes.",
+    route: "/Services/CF4",
   },
   {
     image: serviceManufacturing,
     title: "Manufacturing & Quality Control",
     description:
       "Precision manufacturing supported by modern machinery and strict quality standards.",
+    route: "/Services/CF5",
   },
   {
     image: serviceInstallation,
     title: "Delivery & Installation",
     description:
       "Timely delivery and expert installation ensuring a smooth and hassle-free experience.",
+    route: "/Services/CF6",
   },
 ];
 
 function Services() {
+  const navigate = useNavigate();
+
   return (
     <section className="services-section" id="services">
       <div className="services-container">
@@ -76,6 +85,8 @@ function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: "easeOut", delay: index * 0.08 }}
               viewport={{ once: true }}
+              onClick={() => service.route && navigate(service.route)}
+              style={{ cursor: service.route ? "pointer" : "default" }}
             >
               <div className="service-image">
                 <img src={service.image} alt={service.title} />

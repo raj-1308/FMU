@@ -1,0 +1,125 @@
+.cf6-wrapper {
+  background: linear-gradient(180deg, #95999d 0%, #eef2f7 55%, #0f172a 55%);
+  padding: 120px 8% 0;
+  color: #1f2937;
+}
+
+.cf6-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 70px;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+.cf6-badge {
+  display: inline-block;
+  background: #e5e7eb;
+  color: #334155;
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.cf6-hero-text h1 {
+  font-size: 3.1rem;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.cf6-hero-text p {
+  margin-top: 22px;
+  font-size: 1.05rem;
+  color: #475569;
+  max-width: 520px;
+}
+
+.cf6-hero-image img {
+  width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.25);
+}
+
+.cf6-flow {
+  background: #b0a7a7;
+  padding: 120px 8%;
+  border-radius: 40px 40px 0 0;
+}
+
+.cf6-flow h2 {
+  font-size: 2.6rem;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.cf6-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 50px;
+}
+
+.cf6-step {
+  text-align: center;
+  padding: 20px;
+}
+
+.cf6-step span {
+  font-size: 2rem;
+  font-weight: 600;
+  opacity: 0.3;
+}
+
+.cf6-step h3 {
+  margin-top: 12px;
+  font-size: 1.2rem;
+}
+
+.cf6-step p {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+.cf6-assurance {
+  background: linear-gradient(135deg, #0b1220, #0f172a);
+  padding: 140px 8%;
+  color: #e5e7eb;
+}
+
+.cf6-assurance-content h2 {
+  font-size: 2.7rem;
+  margin-bottom: 20px;
+}
+
+.cf6-assurance-content p {
+  font-size: 1.05rem;
+  color: #b6c2d9;
+  max-width: 600px;
+}
+
+.cf6-assurance-grid {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+.cf6-assurance-box {
+  background: linear-gradient(160deg, #161f35, #111827);
+  padding: 26px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.55);
+}
+
+.cf6-assurance-box img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+
+.cf6-assurance-box h4 {
+  font-size: 1.05rem;
+}

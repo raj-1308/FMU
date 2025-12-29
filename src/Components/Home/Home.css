@@ -101,7 +101,7 @@ body,
   grid-template-columns: repeat(3, 1fr);
   gap: 42px;
   padding: 130px 10%;
-  background: linear-gradient(180deg, #ffffff, #f6f8fc);
+  background: linear-gradient(180deg, #b3aeae, #f6f8fc);
 }
 
 .trust-card {

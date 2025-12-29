@@ -1,0 +1,103 @@
+.cf1-wrapper {
+  background: linear-gradient(135deg, #0c0f14, #121826);
+  padding: 120px 8%;
+  color: #e5e7eb;
+}
+
+.cf1-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 70px;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+.cf1-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.cf1-hero-text h1 {
+  font-size: 3.1rem;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.cf1-hero-text p {
+  margin-top: 22px;
+  font-size: 1.05rem;
+  color: #b8c0cc;
+  max-width: 520px;
+}
+
+.cf1-hero-image img {
+  width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+}
+
+.cf1-process h2,
+.cf1-why h2 {
+  font-size: 2.6rem;
+  margin-bottom: 60px;
+}
+
+.cf1-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 40px;
+}
+
+.cf1-step {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 34px;
+  border-radius: 16px;
+}
+
+.cf1-step span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  opacity: 0.4;
+}
+
+.cf1-step h3 {
+  margin-top: 12px;
+  font-size: 1.2rem;
+}
+
+.cf1-step p {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #b0b7c3;
+}
+
+.cf1-why {
+  margin-top: 140px;
+}
+
+.cf1-why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 40px;
+}
+
+.cf1-why-card {
+  background: linear-gradient(145deg, #141a2b, #0e1320);
+  padding: 36px;
+  border-radius: 18px;
+}
+
+.cf1-why-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.cf1-why-card p {
+  font-size: 0.95rem;
+  color: #b8c0cc;
+}

@@ -1,0 +1,111 @@
+.cf2-wrapper {
+  background: linear-gradient(135deg, #94969a, #eef1f7);
+  padding: 120px 8%;
+  color: #1f2937;
+}
+
+.cf2-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 70px;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+.cf2-badge {
+  display: inline-block;
+  background: #e6ebf5;
+  color: #475569;
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.cf2-hero-text h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.cf2-hero-text p {
+  margin-top: 20px;
+  font-size: 1.05rem;
+  color: #475569;
+  max-width: 520px;
+}
+
+.cf2-hero-image img {
+  width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 30px 70px rgba(15, 23, 42, 0.15);
+}
+
+.cf2-categories h2,
+.cf2-why h2 {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+}
+
+.cf2-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+}
+
+.cf2-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.cf2-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 60px rgba(15, 23, 42, 0.15);
+}
+
+.cf2-card img {
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+.cf2-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.cf2-card p {
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+.cf2-why {
+  margin-top: 140px;
+}
+
+.cf2-why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 40px;
+}
+
+.cf2-why-box {
+  background: #ffffff;
+  padding: 34px;
+  border-radius: 18px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+}
+
+.cf2-why-box h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.cf2-why-box p {
+  font-size: 0.95rem;
+  color: #475569;
+}

@@ -1,0 +1,115 @@
+.cf4-wrapper {
+  background: linear-gradient(135deg, #0e1420, #141b2e);
+  padding: 120px 8%;
+  color: #e5e7eb;
+}
+
+.cf4-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 70px;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+.cf4-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.08);
+  color: #cbd5f5;
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.cf4-hero-text h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.15;
+  color: #f8fafc;
+}
+
+.cf4-hero-text p {
+  margin-top: 20px;
+  font-size: 1.05rem;
+  color: #b6c2d9;
+  max-width: 520px;
+}
+
+.cf4-hero-image img {
+  width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.55);
+}
+
+.cf4-materials h2,
+.cf4-why h2 {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #f1f5f9;
+}
+
+.cf4-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+}
+
+.cf4-card {
+  background: linear-gradient(160deg, #161f35, #111827);
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.cf4-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 45px 90px rgba(0, 0, 0, 0.7);
+}
+
+.cf4-card img {
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 18px;
+}
+
+.cf4-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #f8fafc;
+}
+
+.cf4-card p {
+  font-size: 0.95rem;
+  color: #b6c2d9;
+}
+
+.cf4-why {
+  margin-top: 140px;
+}
+
+.cf4-why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 40px;
+}
+
+.cf4-why-box {
+  background: linear-gradient(160deg, #161f35, #111827);
+  padding: 34px;
+  border-radius: 18px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+}
+
+.cf4-why-box h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #f8fafc;
+}
+
+.cf4-why-box p {
+  font-size: 0.95rem;
+  color: #b6c2d9;
+}
